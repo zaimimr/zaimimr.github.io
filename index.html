@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How ZHouse uses read-only Google Calendar access for a private household calendar pilot.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'none'; style-src 'self'; img-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>ZHouse Calendar Source Reader</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header"><a class="wordmark" href="/">ZHouse</a><nav aria-label="Information pages"><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></nav></header>
+    <main>
+      <p class="eyebrow">Private household calendar connector</p>
+      <h1>A shared plan, with personal events kept personal.</h1>
+      <p class="intro">ZHouse Calendar Source Reader uses read-only Google Calendar access to prepare private daily plans and avoid clashes with household proposals. The shared calendar is the household's existing iCloud calendar.</p>
+      <section class="feature-grid" aria-label="How calendar access works">
+        <article><span class="step">01</span><h2>Read selected sources</h2><p>The connector reads events from calendars a household member has authorized and selected. It does not edit Google Calendar events.</p></article>
+        <article><span class="step">02</span><h2>Keep sharing explicit</h2><p>Only a non-private event marked with <code>znz:</code> can be projected to the shared iCloud calendar. The shared entry says “Busy” by default.</p></article>
+        <article><span class="step">03</span><h2>Ask before scheduling</h2><p>Training and date proposals wait for household approval before an event is added to the shared iCloud calendar.</p></article>
+      </section>
+      <div class="notice"><div><p class="eyebrow">Google Calendar access</p><h2>Read-only, for this household pilot.</h2><p>Calendar data supports the private functions described here. The public information page has no account sign-in or calendar data.</p></div><a class="button" href="/privacy/">Read the privacy policy <span aria-hidden="true">↗</span></a></div>
+    </main>
+    <footer><span>ZHouse Calendar Source Reader</span><span>Updated 15 September 2026</span></footer>
+  </div>
+</body>
+</html>
